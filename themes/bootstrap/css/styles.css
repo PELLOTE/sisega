@@ -1,0 +1,499 @@
+
+/* Inicio Ediciones de reglas Basicas*/
+
+@media (min-width: 1200px) {
+    
+   #page {
+        padding-top: 10px;
+    }
+  
+    
+  .span3.span330 {
+    width: 230px; /* 270 */
+  }
+
+  .span3.span320 {
+    width: 220px; /* 270 */
+  }
+  
+   .span9.span910 {
+    width: 910px; /* 870 */
+  }  
+
+  .sidenav {
+        width: 200px;
+   }
+ 
+   .sidenav.affix {
+        top: 155px;
+   }   
+
+   .page-header {
+        padding-bottom: 5px;
+        margin: 0px 0 15px;
+        border-bottom: 1px solid #eeeeee;
+   }
+   
+   .cuadro{
+          padding: 10px;
+          height: 130px;
+   }
+   
+   .cuadro h4{
+           font-size: 22px;
+           line-height: 30px;
+   }
+   
+}
+
+
+@media (min-width: 980px) and (max-width: 1199px) {
+    
+    #page {
+        padding-top: 60px;
+    }   
+    
+   .sidenav.affix {
+        top: 1555px;
+   }
+   
+   .sidenav {
+        width: 180px;
+   }
+    
+   .page-header {
+        padding-bottom: 5px;
+        margin: 0px 0 15px;
+        border-bottom: 1px solid #eeeeee;
+   }
+   
+   .cuadro{
+          padding: 10px;
+          height: 130px;
+   }
+   
+   .cuadro h2{
+           font-size: 28px;
+           line-height: 35px;
+   }   
+   
+   .cuadro h4{
+           font-size: 20px;
+           line-height: 23px;
+   }
+   
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+   .sidenav {
+        width: 130px;
+   }
+   
+   .sidenav.affix {
+        top: 165px;
+   }
+   
+   .page-header {
+        padding-bottom: 9px;
+        margin: 0px 0 15px;
+        border-bottom: 1px solid #eeeeee;
+   }   
+   
+   .cuadro{
+          height: 170px;
+          padding-top: 10px;
+          padding-right: 13px;
+          padding-bottom: 19px;
+          padding-left: 13px;
+   }   
+   
+   .cuadro h2{
+           font-size: 20px;
+           line-height: 35px;
+   }
+   
+   .cuadro h4{
+           font-size: 20px;
+           line-height: 25px;
+   }
+        
+}
+
+@media (max-width: 767px) {
+    
+        .sidenav.affix {
+                position: static;
+                width: auto;
+                top: 0;
+        }
+        
+        .page-header {
+                padding-bottom: 9px;
+                margin: 20px 0 15px;
+                border-bottom: 1px solid #eeeeee;
+        }
+        
+        .cuadro h4{
+                font-size: 27px;
+                line-height: 30px;
+        }
+        
+        .hero-unit{
+                padding: 50px;
+        }
+
+}
+
+@media (max-width: 450px){
+        .hero-unit{
+                padding-top: 35px;
+                padding-right: 15px;
+                padding-bottom: 35px;
+                padding-left: 15px;
+        }
+}
+
+/* Fin de ediciones de reglas Basicas */
+
+
+/* ----- Edicion de reglas 2 ------ */
+
+
+.form-horizontal .help-block {
+        margin-bottom: 10px;
+}
+
+.form-horizontal .control-label {
+        text-align: left;
+        width: 180px;
+}
+
+
+/*.form-horizontal .row {
+	margin-bottom: 8px;  20px 
+}
+
+.form-horizontal .row label {
+	float: left;
+	width: 200px;
+	padding-top: 5px;
+	text-align: left !important;
+}*/
+
+div .select2-container{
+        margin-left: 0px;
+        float: none;
+}
+
+.chzn-container-single .chzn-single {
+        padding: 2px 2px 2px 8px;
+        font-size: 14px;
+}
+
+.grid-view {
+        font-size: 14px;
+}
+
+
+/* Fin de edición de reglas 2 */
+
+
+
+/* ----- Inicio CSS Fix (posiciones de elementos erroneas) ----- */
+
+#footer
+{
+	/*padding: 10px;*/
+	margin: 10px 20px;
+	font-size: 0.9em;
+	text-align: center;
+        /*border-top: 1px solid #C9E0ED;*/
+}
+
+.search-form{
+    display: none;
+}
+
+.search-form .row{
+    margin-left: 0px;
+}
+
+/*.search-form .row label{
+    display: inline;
+    margin-right: 100px;
+}*/
+
+.search-form span.required{
+    display: none;
+}
+
+.form .row{
+    margin-left: 0px;
+}
+
+.well .row.buttons, .well .form-actions{
+    padding: 19px 20px 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #F5E4C6;
+    border-top: 2px solid #F5C884;
+}
+
+.row.buttons{
+    padding: 19px 20px 20px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+}
+
+.has-switch label {
+        z-index: 9;
+}
+
+.row-fluid .span6 .summary{
+        text-align: right;
+}
+
+/* Fin CSS Fixs*/
+
+
+
+/* ----- Nuevas Reglas ----- */
+
+.buttons-admin{
+        margin-bottom: 15px;
+}
+
+/* Para TbListView */
+a.buttonwell{
+        text-decoration: none;
+        color: #000;
+}
+
+a.buttonwell:hover div.well, a.buttonwell:active div.well
+{    
+    background-color: #E6E6E6;
+    text-decoration:none;
+}
+/* Fin TbListView  */
+
+.cuadro{
+        text-align: center;
+        /* Internet Explorer 10 */
+        display:-ms-flexbox;
+        -ms-flex-pack:center;
+        -ms-flex-align:center;
+
+        /* Firefox */
+        display:-moz-box;
+        -moz-box-pack:center;
+        -moz-box-align:center;
+
+        /* Safari, Chrome, and Opera */
+        display:-webkit-box;
+        -webkit-box-pack:center;
+        -webkit-box-align:center;
+
+        /* W3C */
+        display:box;
+        box-pack:center;
+        box-align:center;
+
+}
+
+.span1.malla{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 90px;
+}
+
+.span1.malla .well.cuadro{
+    margin-bottom: 0px;
+}
+/* Fin Nuevas Reglas*/
+
+.row.rowcaja{
+    margin-left: 0px;
+}
+
+.row.rowcaja .span1{
+    width: 87px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.caja{
+    /* Well */
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    /* Caja */
+    text-align: center;
+    min-height: 50px;
+    
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Chrome, and Opera */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+}
+
+a.botonMalla{
+        text-decoration: none;
+        color: #000;
+}
+
+a.botonMalla:hover .caja, a.botonMalla:active .caja
+{    
+    background-color: #E6E6E6;
+    text-decoration:none;
+}
+
+
+/* Malla */
+.table.malla th, .table.malla td{
+    text-align: center;
+}
+
+.table.malla td{
+    padding: 0px;
+}
+
+tr.celda a{
+        display: block;
+        text-decoration: none;
+        color: #000;
+        padding: 8px;
+}
+
+tr.celda a:hover, tr.celda a:active
+{    
+    background-color: #F5C884;
+    text-decoration:none;
+}
+
+.table.malla .tooltip{
+    font-size: 12px;
+}
+
+.table.malla .tooltip.in{
+    opacity: 1.0;
+}
+
+.table.malla th.success{
+  background-color: #dff0d8;
+}
+
+.table.malla th.error{
+  background-color: #f2dede;
+}
+
+.table.malla th.warning{
+  background-color: #fcf8e3;
+}
+
+.table.malla th.info{
+  background-color: #d9edf7;
+}
+.APROBADO{
+    background-color: #0088cc;
+}
+.REPROBADO{
+    background-color: #b94a48;
+}
+
+/* Fin Malla*/
+
+/*
+CSS MENU CON COLORES UTA
+
+FOCUS : #F5C884 (light)
+FOCUS : #F5C884 (dark)
+*/
+
+.navbar-inner {
+    background-image: linear-gradient(to bottom, #F5C884, #E08511);
+    background-image: -moz-linear-gradient(top, #F5C884, #E08511);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F5C884), to(#E08511));
+    background-image: -webkit-linear-gradient(top, #F5C884, #E08511);
+    background-image: -o-linear-gradient(top, #F5C884, #E08511);
+}
+.navbar .brand {
+color: #fff;
+text-shadow: none;
+}
+
+.navbar .nav > li > a {
+color: #000000;
+text-shadow: 0 1px 0 #DAD3D3;
+}
+
+.dropdown-menu {
+    background-color: #EEB368;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #E08511;
+background-image: -moz-linear-gradient(top, #E08511, #E08511);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E08511), to(#E08511));
+background-image: -webkit-linear-gradient(top, #E08511, #E08511);
+background-image: -o-linear-gradient(top, #E08511, #E08511);
+background-image: linear-gradient(to bottom, #E08511, #E08511);
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+background-color: #F5C884;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+color: #555555;
+background-color: #EEB368;
+}
+.dropdown-menu .divider {
+border-bottom: none;
+}
+
+.datepicker-dropdown {
+background-color: #fff;
+}
+
+.breadcrumb {
+background-color: #F5E4C6;
+}
+.form-actions {
+background-color: #F5E4C6;
+}
+.well {
+background-color: #F5E4C6;    
+}
+
+a.buttonwell:hover div.well, a.buttonwell:active div.well {
+background-color: #F5C884;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+background-color: #F5E4C6;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+background-color: #F5C884;
+}
+
+.grid-view .table tr.selected td {
+background: #F5C884;
+}

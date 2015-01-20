@@ -1,0 +1,16 @@
+/* 
+    Document   : rabo
+    Created on : 21-06-2013, 11:43:44 AM
+    Author     : sebastian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body{
+    padding-top: 40px;
+}
+
+div.search-form { 
+    display: none;
+}
